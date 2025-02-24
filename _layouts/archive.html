@@ -7,9 +7,12 @@ layout: default
 {% endif %}
 
 {% if page.url != "/" and site.breadcrumbs %}
-  {% unless paginator %}
-    {% include breadcrumbs.html %}
-  {% endunless %}
+  {% assign crumbs = page.url | split: '/' %}
+    {% if crumbs.size > 2 %}    
+      {% unless paginator %}
+        {% include breadcrumbs.html %}
+      {% endunless %}
+  {% endif %}
 {% endif %}
 
 <div id="main" role="main">

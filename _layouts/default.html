@@ -9,6 +9,34 @@ layout: compress
   <head>
     {% include head.html %}
     {% include head/custom.html %}
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+          const hash = window.location.hash.substring(1);
+      
+          if (hash) {
+              const header = document.getElementById(hash);
+              console.log("HAHAasdbgaeerfAH");
+              if (header) {
+                  console.log("HAHAHasdfasdfAH");
+                  let nextElement = header.nextElementSibling;
+      
+                  while (nextElement) {
+                      if (nextElement.nodeType === 1) { 
+                          if (nextElement.tagName.toLowerCase() === "details") {
+                              console.log("HAHAHAH");
+                              nextElement.setAttribute("open", "true");
+                              break; 
+                          }
+                          if (nextElement.tagName.match(/^h[1-6]$/i)) {
+                              break;
+                          }
+                      }
+                      nextElement = nextElement.nextSibling;
+                  }
+              }
+          }
+      });
+      </script>
   </head>
 
   <body>
