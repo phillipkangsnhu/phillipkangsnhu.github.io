@@ -9,6 +9,7 @@ excerpt: ""
 |----------------------------------|------------|---------------|
 | Initial Artifact (Before Enhancements) | [View on GitHub](https://github.com/phillipkangsnhu/CS-499/tree/5576f6853deb3191535deefb915f2dd415426cde) | [Download ZIP](https://github.com/phillipkangsnhu/CS-499/archive/5576f6853deb3191535deefb915f2dd415426cde.zip) |
 | Enhanced Artifact | [View on GitHub](https://github.com/phillipkangsnhu/CS-499) | [Download ZIP](https://github.com/phillipkangsnhu/CS-499/archive/refs/heads/main.zip) |
+| Narrative | N/A | [Download File]({{base_path}}/files/SoftwareDesignAndEngineeringNarrativePhillipKang.docx) |
 
 
 This artifact is the application code of my final project of my CS-465 course, Full Stack Development I. It is two separate services, an AngularJS admin portal and an ExpressJS API + web server bundled together. The enhancement I performed was to containerize the applications and have them run in Docker containers to more easily deploy these services while being platform agnostic.

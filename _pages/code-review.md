@@ -6,6 +6,8 @@ author_profile: true
 ---
 
 {% include base_path %}
+[Download Video](https://drive.google.com/file/d/1GM9bp-EprkUMKlTjaI-1Q8jOt2g0QFB_)  
+[Download Text]({{base_path}}/files/WrittenCodeReviewPhillipKang.docx)
 <div width="100%" style="text-align:center;">
 <iframe src="https://drive.google.com/file/d/1GM9bp-EprkUMKlTjaI-1Q8jOt2g0QFB_/preview" width="640" height="480" allow="autoplay" allowfullscreen></iframe>
 </div>

@@ -8,6 +8,7 @@ redirect_from:
 ---
 
 {% include base_path %}
+[Download File]({{base_path}}/files/ProfessionalSelfAssessmentPhillipKang.docx)
 
 ## Professional Growth and Technical Skills Development
 

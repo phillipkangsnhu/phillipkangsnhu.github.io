@@ -9,6 +9,7 @@ excerpt: ""
 |----------------------------------|------------|---------------|
 | Initial Artifact (Before Enhancements) | [View on GitHub](https://github.com/phillipkangsnhu/CS-499/tree/5576f6853deb3191535deefb915f2dd415426cde) | [Download ZIP](https://github.com/phillipkangsnhu/CS-499/archive/5576f6853deb3191535deefb915f2dd415426cde.zip) |
 | Enhanced Artifact | [View on GitHub](https://github.com/phillipkangsnhu/CS-499) | [Download ZIP](https://github.com/phillipkangsnhu/CS-499/archive/refs/heads/main.zip) |
+| Narrative | N/A | [Download File]({{base_path}}/files/AlgorithmsAndDataStructuresNarrativePhillipKang.docx) |
 
 This artifact is the algorithms and data structures portion of my CS-465 Full Stack Development I final project. I created a token bucket algorithm to rate-limit the amount of API calls made to my application to enhance its security and usability.
 

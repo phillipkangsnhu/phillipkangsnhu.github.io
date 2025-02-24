@@ -9,6 +9,7 @@ excerpt: ""
 |----------------------------------|------------|---------------|
 | Initial Artifact (Before Enhancements) | [View on GitHub](https://github.com/phillipkangsnhu/CS-499/tree/5576f6853deb3191535deefb915f2dd415426cde) | [Download ZIP](https://github.com/phillipkangsnhu/CS-499/archive/5576f6853deb3191535deefb915f2dd415426cde.zip) |
 | Enhanced Artifact | [View on GitHub](https://github.com/phillipkangsnhu/CS-499) | [Download ZIP](https://github.com/phillipkangsnhu/CS-499/archive/refs/heads/main.zip) | 
+| Narrative | N/A | [Download File]({{base_path}}/files/DatabasesNarrativePhillipKang.docx) |
 
 This artifact is the database portion of my CS-465 Full Stack Development I final project. It was a mongoDB database that used a JSON file to initialize, and had an ORM layer to allow the application to interact with the data. 
 
